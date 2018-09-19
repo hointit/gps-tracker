@@ -1,0 +1,26 @@
+{
+  "name": "gps-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "admin-lte": "^2.4.8",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "google-map-react": "^1.0.6",
+    "google-maps-react": "^2.0.2",
+    "history": "^4.7.2",
+    "ionicons": "^4.4.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "PORT=6969 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
