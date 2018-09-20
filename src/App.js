@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import createHistory from 'history/createBrowserHistory'
 import Login from './route/Login'
 import Layout from './route/Layout'
 
 class App extends Component {
-  render() {
+  render () {
     return (
-        <Layout />
+      <Layout />
     )
   }
 }
 
-export default App
+export default App;

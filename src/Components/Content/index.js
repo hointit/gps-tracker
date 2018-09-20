@@ -1,2 +1,3 @@
-import Content from './components/Content'
-export default Content
+import Content from './components/Content';
+
+export default Content;

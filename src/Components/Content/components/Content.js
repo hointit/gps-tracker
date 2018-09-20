@@ -1,18 +1,20 @@
-import React, { Component } from 'react'
-import GoogleMap from '../../GoogleMap'
+import React, { Component } from 'react';
+import GoogleMap from '../../GoogleMap';
 
 class Content extends Component {
   render() {
     return (
-      <div className="content-wrapper">
-        <section className="content container-fluid map-content">
-          <div> sdasdasd</div>
+        <div className="content-wrapper">
+            <div className="content container-fluid map-content">
 
-        </section>
-        <GoogleMap />
-      </div>
-    )
+                <div> sdasdasd</div>
+         sdfsdf
+
+
+            </div>
+            <GoogleMap />
+        </div>
+    );
   }
 }
-
-export default Content
+export default Content;
